@@ -1,0 +1,13 @@
+.curseclient
+.mixin.out
+crash-reports
+journeymap
+knownkeys
+local
+logs
+minecraftinstance.json
+resourcepacks
+saves
+usercache.json
+usernamecache.json
+reauth.toml
