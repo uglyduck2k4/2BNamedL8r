@@ -16,3 +16,4 @@ config.json
 manifest.json
 knowkeys.txt
 options.txt
+reauth.toml
