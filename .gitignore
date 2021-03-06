@@ -11,3 +11,8 @@ saves
 usercache.json
 usernamecache.json
 reauth.toml
+natives
+config.json
+manifest.json
+knowkeys.txt
+options.txt
