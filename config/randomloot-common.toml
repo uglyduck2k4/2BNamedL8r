@@ -40,6 +40,10 @@
 	#Weight for a sword to drop from case
 	#Range: 0 ~ 100
 	sword_weight = 20
+	#Allow anonymous data collection?
+	data = true
+	#Enable certain traits to be craftable.
+	crafting_traits = true
 
 #Case Distribution
 [cases]
@@ -203,4 +207,14 @@
 	blinding_enabled = true
 	#Crowd Pleaser Enabled?
 	crowd_pleaser_enabled = true
+	#Charged Enabled?
+	charged_enabled = true
+	#Long Legged Enabled?
+	long_legged_enabled = true
+	#Fire Storm Enabled?
+	fire_storm_enabled = true
+	#Twin Shooter Enabled?
+	twin_shooter_enabled = true
+	#End Arrows Enabled?
+	end_arrows_enabled = true
 

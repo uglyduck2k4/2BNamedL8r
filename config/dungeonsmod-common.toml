@@ -15,18 +15,37 @@
 	"Nightmare Mode" = false
 
 [items]
-	#Home Gem Cast Time in Ticks
-	#Range: > 0
-	"Home Gem Cast Time" = 200
-	#Sun Overdrive Cast Time in Ticks
-	#Range: > 0
-	"Sun Overdrive Cast Time" = 200
-	#Sun Overdrive Cooldown in Ticks
-	#Range: > 0
-	"Sun Overdrive Cooldown" = 144000
-	#Home Gem Cooldown in Ticks
-	#Range: > 0
-	"Home Gem Cooldown" = 18000
+
+	[items.times]
+		#Home Gem Cooldown in Ticks
+		#Range: > 0
+		"Home Gem Cooldown" = 18000
+		#Home Gem Cast Time in Ticks
+		#Range: > 0
+		"Home Gem Cast Time" = 200
+		#Sun Overdrive Cooldown in Ticks
+		#Range: > 0
+		"Sun Overdrive Cooldown" = 144000
+		#Sun Overdrive Cast Time in Ticks
+		#Range: > 0
+		"Sun Overdrive Cast Time" = 200
+
+	[items.activations]
+
+		[items.activations.back_pergamine]
+			Enable = true
+
+		[items.activations.home_gem]
+			Enable = true
+
+		[items.activations.golden_bone]
+			Enable = true
+
+		[items.activations.sun_overdrive]
+			Enable = true
+
+		[items.activations.unstable_map]
+			Enable = true
 
 #Each mob spawn chance is calculated by Weight. 0 to disable it
 [mobs]
@@ -85,6 +104,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 8
 
 	[structures.the_pitcher]
 		#Range: > 0
@@ -96,6 +117,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 8
+		#Range: 0 ~ 64
+		Price = 0
 
 	[structures.the_castle]
 		#Range: > 0
@@ -107,6 +130,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 15
 
 	[structures.the_iron_mines]
 		#Range: > 0
@@ -118,6 +143,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 4
 
 	#Blacklisted biomes in which no structures will spawn
 	[structures.blacklisted-biomes]
@@ -133,6 +160,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 0
 
 	[structures.the_origin]
 		#Range: > 0
@@ -144,6 +173,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 0
 
 	[structures.the_lab]
 		#Range: > 0
@@ -155,6 +186,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 20
 
 	[structures.the_chapel]
 		#Range: > 0
@@ -166,6 +199,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 32
+		#Range: 0 ~ 64
+		Price = 0
 
 	[structures.the_camp]
 		#Range: > 0
@@ -177,6 +212,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 32
+		#Range: 0 ~ 64
+		Price = 0
 
 	[structures.the_nest]
 		#Range: > 0
@@ -188,6 +225,8 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 16
+		#Range: 0 ~ 64
+		Price = 0
 
 	[structures.the_house]
 		#Range: > 0
@@ -199,9 +238,34 @@
 		"Spawing Chance" = 1
 		#Range: > 0
 		Spacing = 80
+		#Range: 0 ~ 64
+		Price = 2
+
+	[structures.the_sewers]
+		#Range: > 0
+		Spacing = 32
+		#Range: > 0
+		Separation = 8
+		#Range: > 0
+		"Seed Modifier" = 14341
+		#1 to always, 100/positiveValues chance
+		#Range: > 1
+		"Spawing Chance" = 1
+		#Range: 0 ~ 64
+		Price = 0
 
 [traveler]
 	#Traveler does not spawn in this radius if theres another traveler near
 	#Range: 0 ~ 256
 	"The One radius" = 64
+
+[invocations]
+	#Enable Traveler invocation
+	"Traveler Invocation" = true
+	#Enable Sun invocation
+	"Sun Invocation" = true
+	#Enable Lord Skeleton invocation
+	"Lord Skeleton Invocation" = true
+	#Enable Winter Hunter invocation
+	"Winter Hunter Invocation" = true
 
