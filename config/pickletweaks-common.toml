@@ -7,41 +7,41 @@
 
 #Disable features.
 [Features]
-	#Colored Cobblestone enabled?
-	coloredCobblestone = true
-	#Dark Glass enabled?
-	darkGlass = true
-	#Smooth Glowstone enabled?
-	smoothGlowstone = true
-	#Coal and Charcoal Piece enabled?
-	coalPiece = true
-	#Diamond and Emerald Apples enabled?
-	apples = true
-	#Watering Can enabled?
-	wateringCan = true
-	#Enable Meshes?
-	meshes = true
-	#Enable Magnet?
-	magnet = true
-	#Enable Night Vision Goggles?
-	nightVisionGoggles = true
-	#Enable Paxels?
-	paxels = true
-	#Enable Flint tools and armor?
-	flintGear = true
-	#Enable Emerald tools and armor?
-	emeraldGear = true
-	#Enable right click crop harvesting?
-	rightClickHarvest = true
 	#Enable Sickles?
 	sickles = true
+	#Dark Glass enabled?
+	darkGlass = true
+	#Enable Emerald tools and armor?
+	emeraldGear = true
+	#Colored Cobblestone enabled?
+	coloredCobblestone = true
+	#Watering Can enabled?
+	wateringCan = true
+	#Enable Paxels?
+	paxels = true
+	#Enable Night Vision Goggles?
+	nightVisionGoggles = true
+	#Enable Magnet?
+	magnet = true
+	#Coal and Charcoal Piece enabled?
+	coalPiece = true
 	#Enable Scythes?
 	scythes = true
+	#Enable Flint tools and armor?
+	flintGear = true
+	#Enable right click crop harvesting?
+	rightClickHarvest = true
+	#Smooth Glowstone enabled?
+	smoothGlowstone = true
+	#Diamond and Emerald Apples enabled?
+	apples = true
+	#Enable Meshes?
+	meshes = true
 
 #Crafting grid tool repair configuration options.
 ["Grid Repair"]
-	#Should Crafting Grid Tool Repairing be enabled?
-	enabled = true
+	#Makes it so shovels need 50% less material to repair.
+	cheapShovel = true
 	#How much material should be required to fully repair a tool.
 	#Range: 1 ~ 8
 	cost = 4
@@ -49,10 +49,6 @@
 	stripEnchantments = false
 	#Should default repair materials be disabled? Doing this makes it so ONLY the custom materials work.
 	disableDefaults = false
-	#Enabling this makes it so custom repair materials override the default ones for the tools specified.
-	overrideMode = false
-	#Makes it so shovels need 50% less material to repair.
-	cheapShovel = true
 	#Tools that should not be repairable in the crafting grid.
 	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
 	blacklist = []
@@ -63,12 +59,16 @@
 	#You can specify how effective the material is by appending @<multiplier>
 	#Ex: ["minecraft:stone_shovel=minecraft:stick@0.5"]
 	overrides = []
+	#Should Crafting Grid Tool Repairing be enabled?
+	enabled = true
+	#Enabling this makes it so custom repair materials override the default ones for the tools specified.
+	overrideMode = false
 
 #Disable and configure tweaks.
 [Tweaks]
-	#Enabled tools not breaking?
-	toolBreaking = true
 	#Tools and weapons that should be ineffective.
 	#Ex: ["minecraft:stone_pickaxe", "minecraft:stone_sword"]
 	uselessTools = []
+	#Enabled tools not breaking?
+	toolBreaking = true
 
