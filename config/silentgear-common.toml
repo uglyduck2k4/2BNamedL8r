@@ -176,6 +176,8 @@
 	[debug.logging]
 		#Log stat calculations in the debug.log every time gear stats are recalculated
 		stats = true
+		#Log details about certain features being adding to biomes and other world generator details
+		worldGen = true
 		#Log additional information related to loading and synchronizing gear parts and traits.
 		#This might help track down more obscure issues.
 		extraPartAndTraitInfo = false
