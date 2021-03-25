@@ -1,12 +1,16 @@
 
 #General settings
 [general]
+	#Enable certain traits to be craftable.
+	crafting_traits = true
 	#Bosses drop chance
 	#Range: 0 ~ 1000
 	boss_drops = 1000
 	#Weight of a golden case dropping
 	#Range: 0 ~ 100
 	gold_chance = 20
+	#Allow anonymous data collection?
+	data = true
 	#Weight for any given piece of armor to drop from case
 	#Range: 0 ~ 100
 	armor_weight = 1
@@ -40,10 +44,6 @@
 	#Weight for a sword to drop from case
 	#Range: 0 ~ 100
 	sword_weight = 20
-	#Allow anonymous data collection?
-	data = true
-	#Enable certain traits to be craftable.
-	crafting_traits = true
 
 #Case Distribution
 [cases]
@@ -132,21 +132,25 @@
 	#Weakening Enabled?
 	weakening_enabled = true
 	#Hailey's Wrath Enabled?
-	"hailey's_wrath_enabled" = true
+	"hailey's_wrath_enabled" = false
 	#Webbed Enabled?
 	webbed_enabled = true
+	#Twin Shooter Enabled?
+	twin_shooter_enabled = true
 	#Taming Enabled?
-	taming_enabled = true
+	taming_enabled = false
 	#Floating Enabled?
 	floating_enabled = true
 	#Stalky Enabled?
-	stalky_enabled = true
+	stalky_enabled = false
 	#Auto Smelt Enabled?
 	auto_smelt_enabled = true
 	#Regenerating Enabled?
 	regenerating_enabled = true
 	#Soul Searching Enabled?
 	soul_searching_enabled = true
+	#Long Legged Enabled?
+	long_legged_enabled = true
 	#Hastey Enabled?
 	hastey_enabled = true
 	#Giant Slayer Enabled?
@@ -179,12 +183,14 @@
 	sturdy_enabled = true
 	#Fire Resistant Enabled?
 	fire_resistant_enabled = true
+	#End Arrows Enabled?
+	end_arrows_enabled = true
 	#Poisonous Enabled?
 	poisonous_enabled = true
 	#Fortified Enabled?
 	fortified_enabled = true
 	#Ore Sight Enabled?
-	ore_sight_enabled = true
+	ore_sight_enabled = false
 	#Enraged Enabled?
 	enraged_enabled = true
 	#Deep Breathing Enabled?
@@ -196,11 +202,13 @@
 	#Excavating Enabled?
 	excavating_enabled = true
 	#Phasing Enabled?
-	phasing_enabled = true
+	phasing_enabled = false
 	#Sun Bathing Enabled?
-	sun_bathing_enabled = true
+	sun_bathing_enabled = false
 	#Lucky Enabled?
 	lucky_enabled = true
+	#Fire Storm Enabled?
+	fire_storm_enabled = true
 	#Speedy Enabled?
 	speedy_enabled = true
 	#Blinding Enabled?
@@ -209,12 +217,4 @@
 	crowd_pleaser_enabled = true
 	#Charged Enabled?
 	charged_enabled = true
-	#Long Legged Enabled?
-	long_legged_enabled = true
-	#Fire Storm Enabled?
-	fire_storm_enabled = true
-	#Twin Shooter Enabled?
-	twin_shooter_enabled = true
-	#End Arrows Enabled?
-	end_arrows_enabled = true
 

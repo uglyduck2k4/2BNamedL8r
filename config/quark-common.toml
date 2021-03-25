@@ -36,19 +36,19 @@
 
 [automation]
 	Chute = true
-	"Iron Rod" = true
-	"Weather Sensor" = true
-	"Ender Watcher" = true
-	"Endermites Form Shulkers" = true
-	"Chains Connect Blocks" = true
-	"Color Slime" = true
-	"Dispensers Place Blocks" = true
+	"Iron Rod" = false
+	"Weather Sensor" = false
+	"Ender Watcher" = false
+	"Endermites Form Shulkers" = false
+	"Chains Connect Blocks" = false
+	"Color Slime" = false
+	"Dispensers Place Blocks" = false
 	"Redstone Circuit" = true
 	"Chain Linkage" = true
-	Gravisand = true
-	"Metal Buttons" = true
-	"Obsidian Plate" = true
-	"Pistons Move Tile Entities" = true
+	Gravisand = false
+	"Metal Buttons" = false
+	"Obsidian Plate" = false
+	"Pistons Move Tile Entities" = false
 	"Feeding Trough" = true
 
 	[automation.dispensers_place_blocks]
@@ -56,7 +56,7 @@
 
 	[automation.chain_linkage]
 		#Can vehicle-linking chains be used for crafting chain armor?
-		"Crafts Armor" = true
+		"Crafts Armor" = false
 
 	[automation.redstone_circuit]
 		"Enable Inductor" = true
@@ -75,7 +75,7 @@
 		"Delayed Update List" = ["minecraft:dispenser", "minecraft:dropper"]
 
 	[automation.color_slime]
-		"Change Name" = true
+		"Change Name" = false
 
 	[automation.feeding_trough]
 		#The chance (between 0 and 1) for an animal to enter love mode when eating from the trough
@@ -89,43 +89,43 @@
 		Range = 10.0
 
 [building]
-	"Duskbound Blocks" = true
-	"Bamboo Mat" = true
+	"Duskbound Blocks" = false
+	"Bamboo Mat" = false
 	"Cobblestone Bricks" = true
-	"More Brick Types" = true
-	"Gold Bars" = true
-	"Soul Sandstone" = true
+	"More Brick Types" = false
+	"Gold Bars" = false
+	"Soul Sandstone" = false
 	"Burn Vines" = true
-	"Quilted Wool" = true
-	"Compressed Blocks" = true
-	Stools = true
-	Thatch = true
+	"Quilted Wool" = false
+	"Compressed Blocks" = false
+	Stools = false
+	Thatch = false
 	"Variant Chests" = false
-	"Variant Ladders" = true
-	Hedges = true
-	"Vertical Slabs" = true
-	Shingles = true
+	"Variant Ladders" = false
+	Hedges = false
+	"Vertical Slabs" = false
+	Shingles = false
 	"Nether Brick Fence Gate" = true
-	"Item Frames" = true
-	"Stained Planks" = true
+	"Item Frames" = false
+	"Stained Planks" = false
 	"Wooden Posts" = true
-	"Leaf Carpet" = true
+	"Leaf Carpet" = false
 	"Lit Lamp" = true
-	"Vertical Planks" = true
+	"Vertical Planks" = false
 	Midori = true
 	"Tie Leads To Fences" = true
 	"Shallow Dirt" = true
-	"More Stone Variants" = true
+	"More Stone Variants" = false
 	"Framed Glass" = true
 	"Tallow And Candles" = true
-	Turf = true
-	"Paper Decor" = true
+	Turf = false
+	"Paper Decor" = false
 	Rope = true
-	"Iron Plates" = true
-	"Sturdy Stone" = true
-	"More Potted Plants" = true
+	"Iron Plates" = false
+	"Sturdy Stone" = false
+	"More Potted Plants" = false
 	Grate = true
-	"Variant Bookshelves" = true
+	"Variant Bookshelves" = false
 
 	[building.rope]
 		"Enable Dispenser Behavior" = true
@@ -210,7 +210,7 @@
 	"Chests In Boats" = true
 	"Inventory Sorting" = true
 	"Shulker Box Right Click" = true
-	"Hotbar Changer" = true
+	"Hotbar Changer" = false
 	"Item Sharing" = true
 	"Right Click Armor" = true
 	"Easy Transfering" = true
@@ -229,14 +229,14 @@
 		"Render Items In Chat" = true
 
 [tools]
-	Pickarang = true
+	Pickarang = false
 	"Seed Pouch" = true
 	"Pathfinder Maps" = true
-	"Bottled Cloud" = true
-	"Color Runes" = true
-	"Ancient Tomes" = true
-	"Slime In A Bucket" = true
-	Camera = true
+	"Bottled Cloud" = false
+	"Color Runes" = false
+	"Ancient Tomes" = false
+	"Slime In A Bucket" = false
+	Camera = false
 	Trowel = true
 
 	[tools.trowel]
@@ -321,10 +321,10 @@
 
 [tweaks]
 	"Armed Armor Stands" = true
-	"Lock Rotation" = true
-	"Dragon Scales" = true
+	"Lock Rotation" = false
+	"Dragon Scales" = false
 	"Replace Scaffolding" = true
-	"Axe Leaf Harvesting" = true
+	"Axe Leaf Harvesting" = false
 	"Sign Editing" = true
 	"Dirt To Path" = true
 	"Simple Harvest" = true
@@ -332,21 +332,21 @@
 	"Reacharound Placing" = true
 	"Villagers Follow Emeralds" = true
 	"Compasses Work Everywhere" = true
-	"Skull Pikes" = true
-	"Note Block Mob Sounds" = true
+	"Skull Pikes" = false
+	"Note Block Mob Sounds" = false
 	"Double Door Opening" = true
 	"Automatic Recipe Unlock" = true
-	"Poison Potato Usage" = true
-	"Lava Bucket As Trash" = true
+	"Poison Potato Usage" = false
+	"Lava Bucket As Trash" = false
 	"Improved Sleeping" = true
-	"Infinity Bucket" = true
-	"Springy Slime" = true
+	"Infinity Bucket" = false
+	"Springy Slime" = false
 	Emotes = true
 	"Utility Recipes" = true
 	"Pat The Dogs" = true
 	"Enhanced Ladders" = true
-	"Snow Golem Player Heads" = true
-	"Glass Shard" = true
+	"Snow Golem Player Heads" = false
+	"Glass Shard" = false
 	"Campfires Boost Elytra" = true
 
 	[tweaks.sign_editing]
@@ -457,32 +457,32 @@
 		"Max Bounces" = 1
 
 [world]
-	"New Stone Types" = true
-	"Lush Underground Biome" = true
+	"New Stone Types" = false
+	"Lush Underground Biome" = false
 	"Big Dungeon" = true
-	Speleothems = true
-	"Elder Prismarine Underground Biome" = true
+	Speleothems = false
+	"Elder Prismarine Underground Biome" = false
 	"Blossom Trees" = true
-	"Sandstone Underground Biome" = true
-	"Glowshroom Underground Biome" = true
-	"Permafrost Underground Biome" = true
-	"Underground Clay" = true
-	"Slime Underground Biome" = true
+	"Sandstone Underground Biome" = false
+	"Glowshroom Underground Biome" = false
+	"Permafrost Underground Biome" = false
+	"Underground Clay" = false
+	"Slime Underground Biome" = false
 	"Fairy Rings" = true
-	"Chorus Vegetation" = true
+	"Chorus Vegetation" = false
 	Crevices = true
-	"Nether Obsidian Spikes" = true
+	"Nether Obsidian Spikes" = false
 	"Mega Caves" = true
 	"Realistic World Gen" = true
-	Biotite = true
+	Biotite = false
 	"Big Stone Clusters" = true
-	"Brimstone Underground Biome" = true
-	"Cave Crystal Underground Biome" = true
-	"Spiral Spires" = true
-	"Overgrown Underground Biome" = true
-	"Cave Roots" = true
-	"Spider Nest Underground Biome" = true
-	"Monster Box" = true
+	"Brimstone Underground Biome" = false
+	"Cave Crystal Underground Biome" = false
+	"Spiral Spires" = false
+	"Overgrown Underground Biome" = false
+	"Cave Roots" = false
+	"Spider Nest Underground Biome" = false
+	"Monster Box" = false
 
 	[world.monster_box]
 		#The chance for the monster box generator to try and place one in a chunk, 1 is 100%
@@ -1001,7 +1001,7 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1029,7 +1029,7 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1086,7 +1086,7 @@
 			"Min Y Level" = 58
 			#Allowed values: [0,)
 			"Horizontal Variation" = 6
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 62
 			#Allowed values: [0,)
@@ -1111,7 +1111,7 @@
 			"Min Y Level" = 0
 			#Allowed values: [0,)
 			"Horizontal Variation" = 6
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 40
 			#Allowed values: [0,)
@@ -1164,7 +1164,7 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1220,7 +1220,7 @@
 			"Min Y Level" = 20
 			#Allowed values: [0,)
 			"Horizontal Variation" = 9
-			Enabled = true
+			Enabled = false
 			#Allowed values: [0,255]
 			"Max Y Level" = 80
 			#Allowed values: [0,)
@@ -1435,9 +1435,9 @@
 				"Is Blacklist" = false
 
 [mobs]
-	Frogs = true
+	Frogs = false
 	Crabs = true
-	Stonelings = true
+	Stonelings = false
 	Foxhound = true
 	Forgotten = true
 	Wraith = true
@@ -1588,7 +1588,7 @@
 	"Improved Tooltips" = true
 	"Improved Mount Hud" = true
 	"Usage Ticker" = true
-	"Auto Walk Keybind" = true
+	"Auto Walk Keybind" = false
 	"Chest Searching" = true
 
 	[client.usage_ticker]
@@ -1643,11 +1643,11 @@
 		"Affect Leaves" = true
 
 [oddities]
-	"Totem Of Holding" = true
-	Backpack = true
+	"Totem Of Holding" = false
+	Backpack = false
 	Crate = false
-	"Matrix Enchanting" = true
-	Magnets = true
+	"Matrix Enchanting" = false
+	Magnets = false
 	Pipes = true
 
 	[oddities.totem_of_holding]
