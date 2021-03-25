@@ -15,7 +15,7 @@
 	#Mod black/whitelist (Syntax " modid ")
 	modlist = ["tconstruct"]
 	#BlackList (Syntax "minecraft or modid : item or block name"; example "minecraft:air" or "lootbagmod:lootbag")
-	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock", "structurize*", "mekanism*",]
+	blacklist = ["minecraft:air", "minecraft:command_block", "minecraft:structure_block", "minecraft:knowledge_book", "minecraft:chain_command_block", "minecraft:repeating_command_block", "minecraft:barrier", "minecraft:enchanted_book", "minecraft:written_book", "minecraft:potion", "minecraft:splash_potion", "minecraft:lingering_potion", "minecraft:spawn_egg", "minecraft:structure_void", "minecraft:mob_spawner", "minecraft:bedrock", "structurize:timber_frames", "mekanism*"]
 	#WhiteList Syntax "minecraft or modid : item or block name"; example minecraft:air or lootbagmod:lootbag)
 	whitelist = ["minecraft:stone"]
 	#TagList (Syntax "minecraft, forge or modid : tag name"; example "minecraft:planks" or "forge:planks")
@@ -23,7 +23,7 @@
 
 ["Mob Drops"]
 	#Mob drops list (Syntax " minecraft or modname : mobregistryname ")
-	mobdropslist = ["minecraft:blaze", "minecraft:cave_spider", "minecraft:creeper", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:enderman", "minecraft:husk", "minecraft:evoker", "minecraft:skeleton", "minecraft:zombie", "minecraft:spider", "minecraft:witch", "minecraft:wither", "minecraft:zombie_villager", "minecolonies:chiefpirate", "minecolonies:chiefbarbarian", "minecolonies:pharao", "minecolonies:amazonchief", "minecolonies:norsemenchief",]
+	mobdropslist = ["minecraft:blaze", "minecraft:cave_spider", "minecraft:creeper", "minecraft:drowned", "minecraft:elder_guardian", "minecraft:enderman", "minecraft:husk", "minecraft:evoker", "minecraft:skeleton", "minecraft:zombie", "minecraft:spider", "minecraft:witch", "minecraft:wither", "minecraft:zombie_villager", "minecolonies:chiefpirate", "minecolonies:chiefbarbarian", "minecolonies:pharao", "minecolonies:amazonchief", "minecolonies:norsemenchief"]
 	#Loot Bag drop chance from mobs (the higher the number the more common they are)
 	#Range: 1 ~ 100
 	dropchance = 10
