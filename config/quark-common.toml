@@ -112,7 +112,7 @@
 	"Leaf Carpet" = false
 	"Lit Lamp" = true
 	"Vertical Planks" = false
-	Midori = true
+	Midori = false
 	"Tie Leads To Fences" = true
 	"Shallow Dirt" = true
 	"More Stone Variants" = false
