@@ -151,6 +151,8 @@
 	soul_searching_enabled = true
 	#Long Legged Enabled?
 	long_legged_enabled = true
+	#Illuminated Enabled?
+	illuminated_enabled = true
 	#Hastey Enabled?
 	hastey_enabled = true
 	#Giant Slayer Enabled?
@@ -173,6 +175,8 @@
 	_enabled = true
 	#Glittering Enabled?
 	glittering_enabled = true
+	#Egg Hunt Enabled?
+	egg_hunt_enabled = true
 	#Filling Enabled?
 	filling_enabled = true
 	#Rained Out Enabled?
@@ -201,6 +205,8 @@
 	explosive_enabled = true
 	#Excavating Enabled?
 	excavating_enabled = true
+	#Locked Enabled?
+	locked_enabled = true
 	#Phasing Enabled?
 	phasing_enabled = false
 	#Sun Bathing Enabled?
